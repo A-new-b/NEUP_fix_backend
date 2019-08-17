@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 import {Validator, ValidationError} from 'express-json-validator-middleware'
 import schema from './validate_schema'
 
-const mongo_url = 'mongodb://localhost:27017';
+const mongo_url = 'mongodb://39.106.73.59:443/';
 const mongo_dbname = 'NEUP_fix';
 
 const app = express();
